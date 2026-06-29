@@ -13,9 +13,12 @@ processes_state:
     artifacts:
     - interval_end: 2026-09-29
       evidence: compliance-evidence-draft/access-review-2026-09-29.md
-      source: ai-drafted
+      source: human-attested
       verifier_findings: 0
-      assertion: "DRAFT (executive: edit this to your own words and sign): Quarterly access review for Q3 2026 — collaborators reviewed per CC6.2/CC6.3"
+      assertion: "I, yueranyuan, reviewed the Q3 2026 access recertification. I accept BrunoCCPires's admin as owner/leadership (documented C2 exception); no other access requires change this interval. CC6.2/CC6.3 satisfied."
+      assertion_author: yueranyuan
+      approver: yueranyuan
+      time_to_decide_s: 240
   - process: vendor-reassessment    # annual
     effective_from: 2026-06-29
     artifacts: []
