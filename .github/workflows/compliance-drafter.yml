@@ -129,6 +129,7 @@ jobs:
           AGENT_BOT_EMAIL: open-autonomy-agent@users.noreply.github.com
           REVIEW_WORKFLOW: reviewer.yml
           EXTRA_CHECK_WORKFLOWS: supply-chain.yml,code-scan.yml,secret-scan.yml,codeql-gate.yml
+          EXTRA_REVIEW_WORKFLOWS: compliance-verifier.yml
           COMMIT_SIGNING: verified-api
         run: bun scripts/agent-propose.ts
       - name: Save the agent run result (durable transcript artifact)
