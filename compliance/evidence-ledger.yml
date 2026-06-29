@@ -10,7 +10,12 @@ note: >-
 processes_state:
   - process: access-review          # quarterly
     effective_from: 2026-06-29
-    artifacts: []
+    artifacts:
+    - interval_end: 2026-09-29
+      evidence: compliance-evidence-draft/access-review-2026-09-29.md
+      source: ai-drafted
+      verifier_findings: 0
+      assertion: "DRAFT (executive: edit this to your own words and sign): Quarterly access review for Q3 2026 — collaborators reviewed per CC6.2/CC6.3"
   - process: vendor-reassessment    # annual
     effective_from: 2026-06-29
     artifacts: []
